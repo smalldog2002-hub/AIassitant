@@ -13,7 +13,7 @@ from io import BytesIO
 
 # --- 页面全局配置 ---
 st.set_page_config(
-    page_title="AI 视觉全能助手",
+    page_title="汪汪的视觉全能助手",
     page_icon="🔮",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -114,7 +114,7 @@ with st.sidebar:
         else:
             api_key = secrets_key
     else:
-        api_key = st.text_input("🔑 Gemini API Key", type="password", help="在此输入 Key 激活所有功能")
+        api_key = st.text_input("🔑 API Key", type="password", help="在此输入 Key 激活所有功能")
     
     st.markdown("---")
     selected_mode = st.radio(
@@ -599,4 +599,5 @@ else:
 
 # --- 页脚 ---
 st.markdown("---")
-st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 0.8rem;">Powered by <strong>Google Gemini 1.5/2.5 Flash Vision</strong> | Built with Streamlit</div>', unsafe_allow_html=True)
+
+st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 0.8rem;">Powered by <strong>gyuniku 养乐多益力多 多多益善 1.5/2.5 Flash Vision</strong> | Built with Streamlit</div>', unsafe_allow_html=True)
