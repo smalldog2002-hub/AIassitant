@@ -131,7 +131,7 @@ with st.sidebar:
             "✨ 社交配文生成"
         ]
     )
-    st.caption("🚀 Core: Gemini 1.5/2.5 Flash")
+    st.caption("🚀 Core: gyuniku 1.5/2.5 Flash")
 
 # --- 核心逻辑函数 ---
 
@@ -601,3 +601,4 @@ else:
 st.markdown("---")
 
 st.markdown('<div style="text-align: center; color: #94a3b8; font-size: 0.8rem;">Powered by <strong>gyuniku 养乐多益力多 多多益善 1.5/2.5 Flash Vision</strong> | Built with Streamlit</div>', unsafe_allow_html=True)
+
